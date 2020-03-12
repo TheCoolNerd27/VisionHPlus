@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:visionhplus/camera_screen.dart';
+import 'package:visionhplus/Drawer.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,10 +11,21 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+        initialRoute: '/',
+        routes: {
+          // When navigating to the "/" route, build the FirstScreen widget.
+
+          // When navigating to the "/second" route, build the SecondScreen widget.
+
+
+          '/live':(context) =>CameraScreen(),
+
+        },
 
       home: Scaffold(
         appBar: AppBar(
         title: Text("VisiohHPlus"),
+
     shape: RoundedRectangleBorder(
     borderRadius: BorderRadius.vertical(
     bottom:Radius.circular(30),
@@ -20,6 +33,7 @@ class MyApp extends StatelessWidget {
     ),
     ),
     body:MyHomePage(title: 'VisionHPlus'),
+        drawer: MyDrawer(),
 
       ));
   }
