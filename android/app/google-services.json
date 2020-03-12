@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "962930643629",
+    "firebase_url": "https://visionhplus.firebaseio.com",
+    "project_id": "visionhplus",
+    "storage_bucket": "visionhplus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962930643629:android:712a53ae92338af63eac24",
+        "android_client_info": {
+          "package_name": "visionhplus.vit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962930643629-r3mouer8lum95cobqeltqejikceung84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdFvnhcTDQSXX4AqQz6IAkQfVbHv27qJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962930643629-r3mouer8lum95cobqeltqejikceung84.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "962930643629-cgdi3cc59jjee5vccd078ld89qbguf24.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "iamuv2000.com.visionhplus"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
